@@ -1,136 +1,77 @@
 body {
-   background: white;
+  margin: 0;
 }
 
-.sticker {
-  display: inline-block;
-  vertical-align: top;
-  margin: 5px;
+html {
+  overflow: hidden;
 }
 
-#coding {
-  font-size: 40px;
-  font-weight: bold;
-  color: black;
-  font-family: "Courier New";
-  background: linear-gradient(red, magenta);
-  padding: 50px 30px;
-  border-radius: 20px;
-  text-align: center;
-}
 
-#web {
-  font-size: 40px;
-  font-family: Impact;
-  text-shadow: 2px 2px grey;
-  background: radial-gradient(yellow, orange, red);
-  padding: 30px;
-  border-radius: 100px;
-}
-
-#save {
-  font-size: 40px;
-  color: white;
-  background: linear-gradient(green, yellow, orange, red, purple, blue);
-  padding: 30px;
-  border-radius: 5px;
-  text-align: center;
-}
-
-#purplerobot {
- background: radial-gradient(gray, purple);
- padding: 15px;
- border-radius: 150px;
-}
-
-#bluerobot {
- background: linear-gradient(white, blue);
- padding: 15px;
- border-radius: 15px;
-}
-
-#greenrobot {
-  background: linear-gradient(to right, green, yellow);
-  border-radius: 20px;
-  border: 5px solid black;
-  position: relative;
-}
-
-#greentext {
-  font-size: 30px;
+#sky {
   position: absolute;
-  bottom: 15px;
-  right: 15px;
+  top: 0;
+  width: 100%;
+  height: 50%;
+  background: lightblue;
+  animation: sky 10s infinite;
 }
 
-#firerobot {
-  background: linear-gradient(to bottom left, white, yellow, tomato);
-  border: 10px dashed tomato;
-  outline: 4px solid tomato;
-  outline-offset: 2px;
-  position: relative;
+@keyframes sky {
+  0%   {background:black;}
+  33%  {background:lightblue;}
+  66%  {background:lightblue;}
+  100%  {background:black;}
 }
 
-#firetext {
-  font-size: 30px;
-  font-family: Impact;
+#sea {
   position: absolute;
-  bottom: 60px;
-  left: 10px;
-  transform: rotate(-15deg);
+  bottom: 0;
+  width: 100%;
+  height: 50%;
+  background: blue;
 }
 
-#dogrobot {
-  background: linear-gradient(to top right, turquoise, white, dodgerblue);
-  border-radius: 20px;
-  padding: 10px;
-  border: 10px solid turquoise;
-  position: relative;
-}
-
-#dogtext {
-  font-size: 30px;
-  font-weight: bold;
+#sun {
   position: absolute;
-  color: yellow;
-  bottom: 50px;
-  left: 10px;
-  transform: rotate(15deg);
+  left: 0;
+  top: 120%;
+  width: 100px;
+  height: 100px;
+  animation: sunrise 10s infinite;
 }
 
+@keyframes sunrise {
+  0%   {left:0; top:120%;}
+  33%  {left:40%; top:0;}
+  66%  {left:40%; top:0;}
+  100%  {left:80%; top:120%;}
+}
 
+#boat {
+  position: absolute;
+  left: -50%;
+  top: 30%;
+  width: 200px;
+  height: 80px;
+  animation: left-right 20s infinite;
+}
 
+@keyframes left-right {
+  0%    {left:-50%;}
+  100%  {left:200%;}
+}
 
+#rainbow {
+  position: absolute;
+  left: 0;
+  width: 200px;
+  animation: fade 10s infinite;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@keyframes fade {
+  0%   {opacity: 0;}
+  50%  {opacity: 100;}
+  66%  {opacity: 0;}
+  100%   {opacity: 0;}
+}
 

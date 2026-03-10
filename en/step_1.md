@@ -1,6 +1,6 @@
 ## Introduction
 
-In this project, you'll learn how to use CSS to create an animated sunrise.
+Create an animated sunrise with CSS.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/html/abcc0284a3?outputOnly=true&start=result" width="600" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -19,7 +19,7 @@ title: Club leader notes
 
 ## Introduction:
 
-In this project, children will to learn how to animate a simple scene using CSS. They will use the CSS @keyframes rule to animate various properties of images and divs.
+Learn how to animate a simple scene using CSS. They will use the CSS @keyframes rule to animate various properties of images and divs.
 
 ## Online Resources
 
