@@ -1,4 +1,4 @@
-<h2 class="c-project-heading--task">Creating the sun</h2>
+<h2 class="c-project-heading--task">Add the sun</h2>
 
 --- task ---
 
@@ -6,29 +6,27 @@ Start by adding an image for the sun.
 
 --- /task ---
 
-
-An image for the sun included in the gallery. Click on the tab to see.
-![screenshot](images/sunrise-sun-height.png)
-
 <div class="c-project-code">
 --- code ---
 ---
 filename: index.html
 language: html
 line_numbers: true
-line_number_start:
-line_highlights:
+line_number_start: 8
+line_highlights: 4
 ---
-
-<div id="sky">
-<img id="sun" src="sun.png">
-</div>
-
-
-<div id="sea">
-
-</div>
-
+  <body>
+  
+    <div id="sky">
+      <img id="sun" src="sun.png">
+    </div>
+    
+    <div id="sea">
 --- /code ---
 </div>
 
+--- task ---
+
+Click **Run** to test. You should see a **sun image** appear.
+
+--- /task ---

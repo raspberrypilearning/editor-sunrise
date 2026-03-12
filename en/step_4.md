@@ -2,17 +2,19 @@
 
 --- task ---
 
-To animate your sunrise, you need to define how the sun moves and how long it takes to rise.
+Create a `sunrise` keyframe animation that makes the sun rise and then set over 10 seconds.
 
 --- /task ---
 
-To do this you define a list of **key frames**.
+--- task ---
 
-+ First, you need to use `@keyframes` to create a new animation called sunrise. 
+Open `style.css`.
 
-    Add this CSS code to the end of your `style.css` file:
+Find your `#sun` CSS rule and make sure it uses the `sunrise` animation.
 
-  This tells the sun to spend 10 seconds animating a sunrise.
+Then add a `@keyframes sunrise` animation at the end of the file so the sun starts at the bottom, reaches the top halfway through, then returns to the bottom.
+
+--- /task ---
 
 <div class="c-project-code">
 --- code ---
@@ -20,34 +22,46 @@ To do this you define a list of **key frames**.
 filename: style.css
 language: css
 line_numbers: true
-line_number_start:
-line_highlights:
+line_number_start: 1
+line_highlights: 7,10-14
 ---
+
 #sun {
   position: absolute;
   left: 0;
   top: 120%;
   width: 100px;
   height: 100px;
-  animation: sunrise 10s infinite;
+  animation: sunrise 10s infinite; /* Run the sunrise animation over 10 seconds, repeating forever */
 }
+
 @keyframes sunrise {
-    0%
-    100%
+  0%   { left: 0;   top: 120%; }
+  50%  { left: 40%; top: 0; }
+  100% { left: 80%; top: 120%; }
 }
 
 --- /code ---
 </div>
 
+<div class="c-project-callout c-project-callout--tip">
 
+### Tip
 
-timp infinate
+- `0%` is the start of the animation and `100%` is the end.
+- Each keyframe sets the sun’s position at that moment in time.
+- Because the sun is inside the sky `div`, `top` and `left` are relative to the sky — `top: 100%` is the bottom of the sky, not the bottom of the webpage.
 
-tIP
+</div>
 
- Each key frame defines the CSS properties of an element at a particular point in an animation. 
+--- task ---
 
-TIP
-    This code tells the sun where to position itself at the start (`0%`) and the end (`100%`) of the animation.
+**Test:** Run your project and check the sun rises up to the top, then sets again, and repeats.
 
-    Because the sun is inside the sky `div`, the `top` and `left` positions you give are within to the sky, with `top: 100%` being the bottom of the sky, and not the bottom of the webpage.
+--- /task ---
+
+<div class="c-project-output">
+
+![screenshot](images/step4.png)
+
+</div>

@@ -1,14 +1,20 @@
-<h2 class="c-project-heading--task">Challenge: Diagonal animation</h2>
+<h2 class="c-project-heading--task">Sky</h2>
 
 --- task ---
 
-
+Animate the sky so it turns dark at night while the sun rises and sets.
 
 --- /task ---
 
-+ If you want the sun to rise and then set, just add more keyframes to your animation:
+--- task ---
 
-   This means that the animation starts and ends with the sun at the bottom of the sky, and stays at the top from 33% until 66% of the animation.
+Open `style.css` and find the `#sky` CSS rule.
+
+Add an animation called `sky` so the background colour changes over time.
+
+Then add a `@keyframes sky` animation so the sky is dark at the start and end, and light blue in the middle.
+
+--- /task ---
 
 <div class="c-project-code">
 --- code ---
@@ -16,23 +22,46 @@
 filename: style.css
 language: css
 line_numbers: true
-line_number_start:
-line_highlights:
+line_number_start: 1
+line_highlights: 7-20
 ---
 
-@keyframes sunrise {
-    0%  
-    33% 
-    66% 
-    100%
+#sky {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 50%;
+  background: lightblue;
+  animation: sky 10s infinite; /* Match the sun's timing so they sync */
 }
 
-look into wha the left and top are???
-@keyframes sunrise {
-  0%   {left:0; top:120%;}
-  33%  {left:40%; top:0;}
-  66%  {left:40%; top:0;}
-  100%  {left:80%; top:120%;}
+@keyframes sky {
+  0%   { background: black; }
+  33%  { background: lightblue; }
+  66%  { background: lightblue; }
+  100% { background: black; }
 }
 
 --- /code ---
+</div>
+
+<div class="c-project-callout c-project-callout--tip">
+
+### Tip
+
+- You can experiment with colours by typing a colour name (like `blue`) and clicking it in the editor to preview.
+- Try changing `lightblue` to another colour to make a different daytime sky.
+
+</div>
+
+--- task ---
+
+**Test:** Run your project and check the sky changes colour over time, getting darker when the sun is “down”.
+
+--- /task ---
+
+<div class="c-project-output">
+
+![screenshot](images/step6.png)
+
+</div>

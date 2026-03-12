@@ -1,43 +1,69 @@
-<h2 class="c-project-heading--task">sky</h2>
+<h2 class="c-project-heading--task">Challenge: More animation</h2>
 
 --- task ---
 
-ANimate sly 
+Animate another image by creating a new `@keyframes` rule and applying it with `animation:`.
 
 --- /task ---
 
-Animation isn't just for movement. Let's animate the sky to turn dark at night.
+--- task ---
 
+To animate a new item, you will need to:
 
+- Include it in your HTML with an `id`
+- Add a CSS style for that `id`
+- Create an `@keyframes` rule
+- Use `animation:` in the style to run the keyframes
 
-+ Add an animation called `sky` to your CSS:
+Click on the image icon to see the images included in the project.
+
+![screenshot](images/sunrise-images.png)
+
+You can also upload your own images if you like.
+
+Don’t forget you can put items in the sea as well as the sky:
+
+![screenshot](images/sunrise-boat.png)
+
+--- /task ---
+
+<div class="c-project-code">
+--- code ---
+---
+filename: style.css
+language: css
+line_numbers: true
+line_number_start: 1
+line_highlights: 1-8
+---
+
+@keyframes fade {
+  0%   { opacity: 0; }
+  50%  { opacity: 1; }
+  66%  { opacity: 1; }
+  100% { opacity: 0; }
+}
 
 --- /code ---
 </div>
 
- 
+<div class="c-project-callout c-project-callout--tip">
 
-+ Now you just need to add the word `infinite` to the `#sun` animation to make it loop forever:
+### Tip
 
-    ![screenshot](images/sunrise-infinite.png)
+- `opacity` goes from `0` (invisible) to `1` (fully visible).
+- If you want something to appear later, try starting it off-screen with a negative `left` value.
 
-+ Test out your animation. Does the sun keep rising and setting? 
+</div>
 
+--- task ---
 
-#sky {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 50%;
-  background: lightblue;
-  animation: sky 10s infinite;
-}
+**Test:** Run your project and check that your new animated item changes over time (for example, it fades in and out).
 
-@keyframes sky {
-  0%   {background:black;}
-  33%  {background:lightblue;}
-  66%  {background:lightblue;}
-  100%  {background:black;}
-}
+--- /task ---
 
-experiemt with colrus - type colours in the editor i.e. blue then click
+<div class="c-project-output">
+
+![screenshot](images/step7.png)
+
+</div>

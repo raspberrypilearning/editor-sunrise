@@ -28,7 +28,5 @@ steps:
   completion:
   - internal
 - title: Step 7
-- title: Step 8
-- title: Step 9
   completion:
   - external
