@@ -1,30 +1,40 @@
-## Animating the sunrise
+<h2 class="c-project-heading--task">Creating the sun</h2>
 
-To animate your sunrise, you need to define how the sun moves and how long it takes to rise.
+--- task ---
 
-To do this you define a list of __key frames__. Each key frame defines the CSS properties of an element at a particular point in an animation. 
+Resize and position the sun in CSS.
 
-+ First, you need to use `@keyframes` to create a new animation called sunrise. 
+--- /task ---
 
-    Add this CSS code to the end of your `style.css` file:
+--- task ---
 
-    ```
-    @keyframes sunrise {
-        0%
-        100%
-    }
-    ```
+Click on the file icon and the `style.css` file. 
 
-    This code tells the sun where to position itself at the start (`0%`) and the end (`100%`) of the animation.
+![screenshot](images/sunrise-sun-height.png)
 
-    Because the sun is inside the sky `div`, the `top` and `left` positions you give are within to the sky, with `top: 100%` being the bottom of the sky, and not the bottom of the webpage.
+--- /task ---
 
-+ Now that you have created a `sunrise` animation, you just need to tell your sun to use it! 
+<div class="c-project-code">
+--- code ---
+---
+filename: style.css
+language: css
+line_numbers: true
+line_number_start:
+line_highlights:
+---
 
-    Add the highlighted code to your sun's CSS:
+#sun {
+  position: absolute;
+  left: 0;
+  height: 100px;
+}
 
-    ![screenshot](images/sunrise-sunrise.png)
+--- /code ---
+</div>
 
-    This tells the sun to spend 10 seconds animating a sunrise.
 
-+ To run the animation again in Trinket, just click **Autorun**. 
+
+
+TIP
+Note that the width is updated automatically to keep the proportions the same. 

@@ -20,3 +20,8 @@ html {
   bottom: 0;
   background: blue;
 }
+
+@keyframes sunrise {
+    0%
+    100%
+}

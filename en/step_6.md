@@ -1,24 +1,36 @@
-## Animating the sky
+<h2 class="c-project-heading--task">Challenge: Diagonal animation</h2>
 
-Animation isn't just for movement. Let's animate the sky to turn dark at night.
+--- task ---
 
-+ Add an animation called `sky` to your CSS:
 
-    ```
-    @keyframes sky {
-        0%
-        100%
-    }
-    ```
 
-    Notice that this time you're animating the colour of the sky, and not the position.
+--- /task ---
 
-+ Add code to your sky, to tell it to use your new animation:
++ If you want the sun to rise and then set, just add more keyframes to your animation:
 
-    ```
-    animation: sky 10s;
-    ```
+   This means that the animation starts and ends with the sun at the bottom of the sky, and stays at the top from 33% until 66% of the animation.
 
-    ![screenshot](images/sunrise-sky.png)
+<div class="c-project-code">
+--- code ---
+---
+filename: style.css
+language: css
+line_numbers: true
+line_number_start:
+line_highlights:
+---
 
-+ Click **Autorun** to test your animation. 
+@keyframes sunrise {
+    0%  
+    33% 
+    66% 
+    100%
+}
+
+look into wha the left and top are???
+@keyframes sunrise {
+  0%   {left:0; top:120%;}
+  33%  {left:40%; top:0;}
+  66%  {left:40%; top:0;}
+  100%  {left:80%; top:120%;}
+}

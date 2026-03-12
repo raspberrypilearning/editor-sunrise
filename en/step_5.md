@@ -1,22 +1,33 @@
-## Infinite animation
+<h2 class="c-project-heading--task">Challenge: Diagonal animation</h2>
 
-Let's make the animation keep repeating forever.
+--- task ---
 
-+ If you want the sun to rise and then set, just add more keyframes to your animation:
+Change the angle
 
-    ```
-    @keyframes sunrise {
-        0%  
-        33% 
-        66% 
-        100%
-    }
-    ```
+--- /task ---
 
-    This means that the animation starts and ends with the sun at the bottom of the sky, and stays at the top from 33% until 66% of the animation.
+Something about where 0% is
 
-+ Now you just need to add the word `infinite` to the `#sun` animation to make it loop forever:
+Experiment with differnt directions and percenathes
 
-    ![screenshot](images/sunrise-infinite.png)
+You can use the `left` property at 40 to do this, for example:
 
-+ Test out your animation. Does the sun keep rising and setting? 
+<div class="c-project-code">
+--- code ---
+---
+filename: style.css
+language: css
+line_numbers: true
+line_number_start:
+line_highlights:
+---
+
+left: 40%;
+
+--- /code ---
+</div>
+
+Output
+![screenshot](images/sunrise-left.png)
+
+
