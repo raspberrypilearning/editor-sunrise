@@ -31,8 +31,8 @@ line_highlights: 2-5
 
 @keyframes sunrise {
   0%   { left: 0;   top: 120%; }
-  33%  { left: 40%; top: 0; }
-  66%  { left: 40%; top: 0; }
+  33%  { left: 20%; top: 0; }
+  66%  { left: 60%; top: 0; }
   100% { left: 80%; top: 120%; }
 }
 
@@ -57,6 +57,6 @@ line_highlights: 2-5
 
 <div class="c-project-output">
 
-![screenshot](images/step5.png)
+![screenshot](images/step5.gif)
 
 </div>

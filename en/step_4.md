@@ -22,16 +22,15 @@ Then add a `@keyframes sunrise` animation at the end of the file so the sun star
 filename: style.css
 language: css
 line_numbers: true
-line_number_start: 1
-line_highlights: 7,10-14
+line_number_start: 24
+line_highlights: 29, 32-36
 ---
 
 #sun {
   position: absolute;
   left: 0;
-  top: 120%;
-  width: 100px;
   height: 100px;
+  top: 40px; /* Move the sun down */
   animation: sunrise 10s infinite; /* Run the sunrise animation over 10 seconds, repeating forever */
 }
 
@@ -62,6 +61,6 @@ line_highlights: 7,10-14
 
 <div class="c-project-output">
 
-![screenshot](images/step4.png)
+![screenshot](images/step4.gif)
 
 </div>

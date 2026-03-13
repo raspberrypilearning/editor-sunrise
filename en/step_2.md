@@ -13,7 +13,7 @@ filename: index.html
 language: html
 line_numbers: true
 line_number_start: 8
-line_highlights: 4
+line_highlights: 11
 ---
   <body>
   
@@ -22,11 +22,19 @@ line_highlights: 4
     </div>
     
     <div id="sea">
+
+</body>
 --- /code ---
 </div>
 
 --- task ---
 
-Click **Run** to test. You should see a **sun image** appear.
+Click **Run** to test. You should see a **sun image** appear. It will be huge, and the size is change in the next step.
 
 --- /task ---
+
+<div class="c-project-output">
+
+![screenshot](images/step2.png)
+
+</div>

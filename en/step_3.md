@@ -2,7 +2,7 @@
 
 --- task ---
 
-Resize and position the sun in CSS.
+Resize and position the sun by adding the CSS code below.
 
 --- /task ---
 
@@ -10,7 +10,7 @@ Resize and position the sun in CSS.
 
 Click on the file icon and open `style.css`.
 
-![screenshot](images/sunrise-sun-height.png)
+![screenshot](images/step3a.png)
 
 --- /task ---
 
@@ -20,8 +20,8 @@ Click on the file icon and open `style.css`.
 filename: style.css
 language: css
 line_numbers: true
-line_number_start: 1
-line_highlights: 4-5
+line_number_start:24
+line_highlights: 24-29
 ---
 
 #sun {
@@ -50,6 +50,6 @@ If you only set the `height`, the width updates automatically to keep the propor
 
 <div class="c-project-output">
 
-![screenshot](images/step3.png)
+![screenshot](images/step3b.png)
 
 </div>

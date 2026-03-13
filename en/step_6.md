@@ -22,8 +22,8 @@ Then add a `@keyframes sky` animation so the sky is dark at the start and end, a
 filename: style.css
 language: css
 line_numbers: true
-line_number_start: 1
-line_highlights: 7-20
+line_number_start: 9
+line_highlights: 14-22
 ---
 
 #sky {
@@ -62,6 +62,6 @@ line_highlights: 7-20
 
 <div class="c-project-output">
 
-![screenshot](images/step6.png)
+![screenshot](images/step6.gif)
 
 </div>
