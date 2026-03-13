@@ -23,7 +23,7 @@ filename: style.css
 language: css
 line_numbers: true
 line_number_start: 9
-line_highlights: 14-22
+line_highlights: 15-23
 ---
 
 #sky {
