@@ -47,9 +47,22 @@ line_highlights: 29, 32-36
 
 ### Tip
 
-- `0%` is the start of the animation and `100%` is the end.
-- Each keyframe sets the sun’s position at that moment in time.
-- Because the sun is inside the sky `div`, `top` and `left` are relative to the sky — `top: 100%` is the bottom of the sky, not the bottom of the webpage.
+Tip
+
+- 0% represents the very start of the animation timeline.
+- 100% represents the very end.
+
+Each keyframe defines the sun’s position at a specific point in that timeline. The browser smoothly transitions between those positions.
+
+Because the sun element is positioned inside the `.sky` div, its `top` and `left` values are calculated relative to that container — not the entire webpage.
+
+For example:
+
+- `top: 0%` places the sun at the top edge of the sky.
+
+- `top: 100%` places the sun at the bottom edge of the sky.
+
+It does not refer to the top or bottom of the whole page, only the boundaries of the `.sky` element.
 
 </div>
 
