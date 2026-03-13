@@ -20,7 +20,7 @@ Click on the file icon and open `style.css`.
 filename: style.css
 language: css
 line_numbers: true
-line_number_start:24
+line_number_start: 24
 line_highlights: 24-29
 ---
 
