@@ -16,17 +16,18 @@ hardware: ''
 software: html-css-javascript
 version: 3
 last_tested: 2017-01-01
+landing: true
 steps:
-- title: Step 1
-- title: Step 2
-- title: Step 3
+- title: Add the sun
+- title: Creating the sun
   completion:
   - engaged
-- title: Step 4
-- title: Step 5
-- title: Step 6
+- title: Animating the sunrise
+- title: Diagonal animation
   completion:
   - internal
-- title: Step 7
+- title: Sky
   completion:
   - external
+- title: Challenge
+  challenge: true

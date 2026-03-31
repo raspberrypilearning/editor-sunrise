@@ -1,23 +1,18 @@
-<h2 class="c-project-heading--task">Diagonal animation</h2>
+<h2 class="c-project-heading--task">Sky</h2>
 
---- task ---
+### Step 1
 
-Change the `sunrise` keyframes so the sun rises, pauses at the top, then sets again.
+Animate the sky so it turns dark at night while the sun rises and sets.
 
---- /task ---
 
---- task ---
+### Step 2
 
-Open `style.css` and find your `@keyframes sunrise` animation.
+Open `style.css` and find the `#sky` CSS rule.
 
-Update the keyframes so the sun:
+Add an animation called `sky` so the background colour changes over time.
 
-- starts at the bottom of the sky
-- reaches the top by `33%`
-- stays at the top until `66%`
-- returns to the bottom by `100%`
+Then add a `@keyframes sky` animation so the sky is dark at the start and end, and light blue in the middle.
 
---- /task ---
 
 <div class="c-project-code">
 --- code ---
@@ -25,15 +20,24 @@ Update the keyframes so the sun:
 filename: style.css
 language: css
 line_numbers: true
-line_number_start: 1
-line_highlights: 2-5
+line_number_start: 9
+line_highlights: 15-23
 ---
 
-@keyframes sunrise {
-  0%   { left: 0;   top: 120%; }
-  33%  { left: 20%; top: 0; }
-  66%  { left: 60%; top: 0; }
-  100% { left: 80%; top: 120%; }
+#sky {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 50%;
+  background: lightblue;
+  animation: sky 10s infinite; /* Match the sun's timing so they sync */
+}
+
+@keyframes sky {
+  0%   { background: black; }
+  33%  { background: lightblue; }
+  66%  { background: lightblue; }
+  100% { background: black; }
 }
 
 --- /code ---
@@ -43,20 +47,18 @@ line_highlights: 2-5
 
 ### Tip
 
-- `left` moves the sun sideways across the sky (0% is the left edge).
-- `top` moves the sun up and down inside the sky (`top: 100%` is the bottom of the sky).
-- Try changing the `left` values to make the sun rise at a steeper or shallower angle.
+- You can experiment with colours by typing a colour name (like `blue`) and clicking it in the editor to preview.
+- Try changing `lightblue` to another colour to make a different daytime sky.
 
 </div>
 
---- task ---
+### Step 3
 
-**Test:** Run your project and check the sun rises, pauses near the top, then sets again.
+**Test:** Run your project and check the sky changes colour over time, getting darker when the sun is “down”.
 
---- /task ---
 
 <div class="c-project-output">
 
-![screenshot](images/step5.gif)
+![screenshot](images/step6.gif)
 
 </div>
