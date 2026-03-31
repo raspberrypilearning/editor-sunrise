@@ -1,40 +1,52 @@
-<h2 class="c-project-heading--task">Add the sun</h2>
+<h2 class="c-project-heading--task">Creating the sun</h2>
 
---- task ---
+### Step 1
 
-Start by adding an image for the sun.
+Resize and position the sun by adding the CSS code below.
 
---- /task ---
+
+### Step 2
+
+Click on the file icon and open `style.css`.
+
+![screenshot](images/step3a.png)
+
 
 <div class="c-project-code">
 --- code ---
 ---
-filename: index.html
-language: html
+filename: style.css
+language: css
 line_numbers: true
-line_number_start: 8
-line_highlights: 11
+line_number_start: 24
+line_highlights: 24-29
 ---
-  <body>
-  
-    <div id="sky">
-      <img id="sun" src="sun.png">
-    </div>
-    
-    <div id="sea">
 
-</body>
+#sun {
+  position: absolute;
+  left: 0;
+  height: 100px;
+  top: 40px; /* Move the sun down */
+}
+
 --- /code ---
 </div>
 
---- task ---
+<div class="c-project-callout c-project-callout--tip">
 
-Click **Run** to test. You should see a **sun image** appear. It will be huge, and the size is change in the next step.
+### Tip
 
---- /task ---
+If you only set the `height`, the width updates automatically to keep the proportions the same.
+
+</div>
+
+### Step 3
+
+**Test:** Run your project and check that the sun is smaller and has moved down the page.
+
 
 <div class="c-project-output">
 
-![screenshot](images/step2.png)
+![screenshot](images/step3b.png)
 
 </div>

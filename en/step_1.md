@@ -1,13 +1,38 @@
-<h2 class="c-project-heading--task">What you will make</h2>
+<h2 class="c-project-heading--task">Add the sun</h2>
 
---- task ---
+### Step 1
 
-Create an animated sunrise with CSS.
+Start by adding an image for the sun.
 
---- /task ---
 
-Click **Run** to try it out. 
+<div class="c-project-code">
+--- code ---
+---
+filename: index.html
+language: html
+line_numbers: true
+line_number_start: 8
+line_highlights: 11
+---
+  <body>
+  
+    <div id="sky">
+      <img id="sun" src="sun.png">
+    </div>
+    
+    <div id="sea">
+
+</body>
+--- /code ---
+</div>
+
+### Step 2
+
+Click **Run** to test. You should see a **sun image** appear. It will be huge, and the size is change in the next step.
+
 
 <div class="c-project-output">
-<iframe src="https://editor.raspberrypi.org/en/embed/viewer/editor-sunrise-complete" width="100%" height="900" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+
+![screenshot](images/step2.png)
+
 </div>

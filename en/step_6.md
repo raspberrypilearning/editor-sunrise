@@ -1,67 +1,29 @@
-<h2 class="c-project-heading--task">Sky</h2>
+<h2 class="c-project-heading--task">Challenge</h2>
 
---- task ---
+### Step 1
 
-Animate the sky so it turns dark at night while the sun rises and sets.
+Add more animations to your project.
 
---- /task ---
 
---- task ---
+### Step 2
 
-Open `style.css` and find the `#sky` CSS rule.
+To animate a new item, you will need to:
 
-Add an animation called `sky` so the background colour changes over time.
+- Include it in your HTML with an `id`
+- Add a CSS style for that `id`
+- Create an `@keyframes` rule
+- Use `animation:` in the style to run the keyframes
 
-Then add a `@keyframes sky` animation so the sky is dark at the start and end, and light blue in the middle.
+Click on the image icon to see the images included in the project.
 
---- /task ---
+![screenshot](images/images.png)
 
-<div class="c-project-code">
---- code ---
----
-filename: style.css
-language: css
-line_numbers: true
-line_number_start: 9
-line_highlights: 15-23
----
+Don’t forget you can put items in the sea as well as the sky:
 
-#sky {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 50%;
-  background: lightblue;
-  animation: sky 10s infinite; /* Match the sun's timing so they sync */
-}
 
-@keyframes sky {
-  0%   { background: black; }
-  33%  { background: lightblue; }
-  66%  { background: lightblue; }
-  100% { background: black; }
-}
-
---- /code ---
-</div>
-
-<div class="c-project-callout c-project-callout--tip">
-
-### Tip
-
-- You can experiment with colours by typing a colour name (like `blue`) and clicking it in the editor to preview.
-- Try changing `lightblue` to another colour to make a different daytime sky.
-
-</div>
-
---- task ---
-
-**Test:** Run your project and check the sky changes colour over time, getting darker when the sun is “down”.
-
---- /task ---
 
 <div class="c-project-output">
 
-![screenshot](images/step6.gif)
+![screenshot](images/sunrise-boat.png)
 
 </div>
