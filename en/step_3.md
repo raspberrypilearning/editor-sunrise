@@ -1,11 +1,8 @@
 <h2 class="c-project-heading--task">Animating the sunrise</h2>
 
-### Step 1
-
 Create a `sunrise` keyframe animation that makes the sun rise and then set over 10 seconds.
 
-
-### Step 2
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
 Open `style.css`.
 
@@ -41,9 +38,9 @@ line_highlights: 29, 32-36
 --- /code ---
 </div>
 
-<div class="c-project-callout c-project-callout--tip">
-
 ### Tip
+
+<div class="c-project-callout c-project-callout--tip">
 
 Tip
 
@@ -64,9 +61,9 @@ It does not refer to the top or bottom of the whole page, only the boundaries of
 
 </div>
 
-### Step 3
+## Now run your code
 
-**Test:** Run your project and check the sun rises up to the top, then sets again, and repeats.
+Run your project and check the sun rises up to the top, then sets again, and repeats.
 
 
 <div class="c-project-output">

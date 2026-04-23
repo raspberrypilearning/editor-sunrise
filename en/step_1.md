@@ -1,9 +1,10 @@
 <h2 class="c-project-heading--task">Add the sun</h2>
 
-### Step 1
-
 Start by adding an image for the sun.
 
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
+## Step 1
 
 <div class="c-project-code">
 --- code ---
@@ -26,7 +27,7 @@ line_highlights: 11
 --- /code ---
 </div>
 
-### Step 2
+## Step 2
 
 Click **Run** to test. You should see a **sun image** appear. It will be huge, and the size is change in the next step.
 
@@ -36,3 +37,7 @@ Click **Run** to test. You should see a **sun image** appear. It will be huge, a
 ![screenshot](images/step2.png)
 
 </div>
+
+## Now run your code
+
+Confirm the observable result.
