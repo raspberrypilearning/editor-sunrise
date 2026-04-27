@@ -40,4 +40,4 @@ Click **Run** to test. You should see a **sun image** appear. It will be huge, a
 
 ## Now run your code
 
-Confirm the observable result.
+Click **Run** and check that a huge sun image appears on the page.

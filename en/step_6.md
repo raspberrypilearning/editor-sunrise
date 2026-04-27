@@ -28,4 +28,4 @@ Don’t forget you can put items in the sea as well as the sky:
 
 ## Now run your code
 
-Confirm the observable result.
+Run your code and check that your new item appears in the sky or sea and animates the way you planned.
