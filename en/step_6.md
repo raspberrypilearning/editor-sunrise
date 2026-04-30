@@ -1,11 +1,8 @@
 <h2 class="c-project-heading--task">Challenge</h2>
 
-### Step 1
-
 Add more animations to your project.
 
-
-### Step 2
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
 To animate a new item, you will need to:
 
@@ -16,8 +13,9 @@ To animate a new item, you will need to:
 
 Click on the image icon to see the images included in the project.
 
+<div class="c-project-output">
 ![screenshot](images/images.png)
-
+</div>
 Don’t forget you can put items in the sea as well as the sky:
 
 
@@ -27,3 +25,7 @@ Don’t forget you can put items in the sea as well as the sky:
 ![screenshot](images/sunrise-boat.png)
 
 </div>
+
+## Now run your code
+
+Run your code and check that your new item appears in the sky or sea and animates the way you planned.

@@ -1,11 +1,8 @@
 <h2 class="c-project-heading--task">Diagonal animation</h2>
 
-### Step 1
-
 Change the `sunrise` keyframes so the sun rises, pauses at the top, then sets again.
 
-
-### Step 2
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
 Open `style.css` and find your `@keyframes sunrise` animation.
 
@@ -37,9 +34,9 @@ line_highlights: 2-5
 --- /code ---
 </div>
 
-<div class="c-project-callout c-project-callout--tip">
-
 ### Tip
+
+<div class="c-project-callout c-project-callout--tip">
 
 - `left` moves the sun sideways across the sky (0% is the left edge).
 - `top` moves the sun up and down inside the sky (`top: 100%` is the bottom of the sky).
@@ -47,9 +44,9 @@ line_highlights: 2-5
 
 </div>
 
-### Step 3
+## Now run your code
 
-**Test:** Run your project and check the sun rises, pauses near the top, then sets again.
+Run your project and check the sun rises, pauses near the top, then sets again.
 
 
 <div class="c-project-output">

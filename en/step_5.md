@@ -1,11 +1,8 @@
 <h2 class="c-project-heading--task">Sky</h2>
 
-### Step 1
-
 Animate the sky so it turns dark at night while the sun rises and sets.
 
-
-### Step 2
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
 Open `style.css` and find the `#sky` CSS rule.
 
@@ -43,18 +40,18 @@ line_highlights: 15-23
 --- /code ---
 </div>
 
-<div class="c-project-callout c-project-callout--tip">
-
 ### Tip
+
+<div class="c-project-callout c-project-callout--tip">
 
 - You can experiment with colours by typing a colour name (like `blue`) and clicking it in the editor to preview.
 - Try changing `lightblue` to another colour to make a different daytime sky.
 
 </div>
 
-### Step 3
+## Now run your code
 
-**Test:** Run your project and check the sky changes colour over time, getting darker when the sun is “down”.
+Run your project and check the sky changes colour over time, getting darker when the sun is “down”.
 
 
 <div class="c-project-output">
