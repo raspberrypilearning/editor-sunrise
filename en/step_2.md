@@ -2,8 +2,6 @@
 
 Resize and position the sun by adding the CSS code below.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 Click on the file icon and open `style.css`.
 
 <div class="c-project-output">
