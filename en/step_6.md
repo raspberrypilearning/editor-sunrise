@@ -2,8 +2,6 @@
 
 Add more animations to your project.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 To animate a new item, you will need to:
 
 - Include it in your HTML with an `id`

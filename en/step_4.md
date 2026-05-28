@@ -2,8 +2,6 @@
 
 Change the `sunrise` keyframes so the sun rises, pauses at the top, then sets again.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 Open `style.css` and find your `@keyframes sunrise` animation.
 
 Update the keyframes so the sun:
