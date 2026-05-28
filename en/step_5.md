@@ -2,8 +2,6 @@
 
 Animate the sky so it turns dark at night while the sun rises and sets.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 Open `style.css` and find the `#sky` CSS rule.
 
 Add an animation called `sky` so the background colour changes over time.
