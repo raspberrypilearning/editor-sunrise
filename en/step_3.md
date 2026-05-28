@@ -2,8 +2,6 @@
 
 Create a `sunrise` keyframe animation that makes the sun rise and then set over 10 seconds.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 Open `style.css`.
 
 Find your `#sun` CSS rule and make sure it uses the `sunrise` animation.
