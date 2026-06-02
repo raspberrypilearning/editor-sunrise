@@ -27,7 +27,7 @@ line_highlights: 11
 
 ## Step 2
 
-Click **Run** to test. You should see a **sun image** appear. It will be huge, and the size is change in the next step.
+Click **Run** to test. You should see a **sun image** appear. It will be huge — you will change the size in the next step.
 
 
 <div class="c-project-output">
