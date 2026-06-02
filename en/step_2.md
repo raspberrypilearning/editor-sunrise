@@ -31,7 +31,7 @@ line_highlights: 24-29
 
 <div class="c-project-callout c-project-callout--tip">
 
-If you only set the `height`, the width updates automatically to keep the proportions the same.
+You only need to set the `height` as the width updates automatically to keep the proportions the same.
 
 </div>
 
