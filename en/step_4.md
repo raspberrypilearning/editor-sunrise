@@ -36,9 +36,9 @@ line_highlights: 2-5
 
 <div class="c-project-callout c-project-callout--tip">
 
-- `left` moves the sun sideways across the sky (0% is the left edge).
-- `top` moves the sun up and down inside the sky (`top: 100%` is the bottom of the sky).
-- Try changing the `left` values to make the sun rise at a steeper or shallower angle.
+- `left` moves the sun sideways across the sky (0% is the left edge)
+- `top` moves the sun up and down inside the sky (`top: 100%` is the bottom of the sky)
+- Try changing the `left` values to make the sun rise at a steeper or shallower angle
 
 </div>
 

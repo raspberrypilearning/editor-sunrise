@@ -42,18 +42,18 @@ line_highlights: 29, 32-36
 
 Tip
 
-- 0% represents the very start of the animation timeline.
-- 100% represents the very end.
+- 0% represents the very start of the animation timeline
+- 100% represents the very end
 
-Each keyframe defines the sun’s position at a specific point in that timeline. The browser smoothly transitions between those positions.
+Each keyframe defines the sun’s position at a specific point in the timeline. The browser smoothly transitions between those positions.
 
 Because the sun element is positioned inside the `.sky` div, its `top` and `left` values are calculated relative to that container — not the entire webpage.
 
 For example:
 
-- `top: 0%` places the sun at the top edge of the sky.
+- `top: 0%` places the sun at the top edge of the sky
 
-- `top: 100%` places the sun at the bottom edge of the sky.
+- `top: 100%` places the sun at the bottom edge of the sky
 
 It does not refer to the top or bottom of the whole page, only the boundaries of the `.sky` element.
 
@@ -61,7 +61,7 @@ It does not refer to the top or bottom of the whole page, only the boundaries of
 
 ## Now run your code
 
-Run your project and check the sun rises up to the top, then sets again, and repeats.
+Run your code and check the sun rises up to the top, then sets again, and repeats.
 
 
 <div class="c-project-output">

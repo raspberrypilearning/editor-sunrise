@@ -1,6 +1,6 @@
 <h2 class="c-project-heading--task">Sky</h2>
 
-Animate the sky so it turns dark at night while the sun rises and sets.
+Animate the sky so it turns dark at night after the sun has set.
 
 Open `style.css` and find the `#sky` CSS rule.
 
@@ -42,8 +42,8 @@ line_highlights: 15-23
 
 <div class="c-project-callout c-project-callout--tip">
 
-- You can experiment with colours by typing a colour name (like `blue`) and clicking it in the editor to preview.
-- Try changing `lightblue` to another colour to make a different daytime sky.
+- You can experiment with colours by typing a colour name (like `blue`) and clicking it in the editor to preview
+- Try changing `lightblue` to another colour to make a different daytime sky
 
 </div>
 
