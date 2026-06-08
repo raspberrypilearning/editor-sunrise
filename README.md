@@ -16,3 +16,4 @@ See [LICENCE.md](LICENCE.md)
 ## Setting up a Crowdin project
 
 See [CROWDIN.md](CROWDIN.md).
+
