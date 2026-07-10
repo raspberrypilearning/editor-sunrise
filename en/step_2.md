@@ -1,21 +1,12 @@
-<h2 class="c-project-heading--task">Creating the sun</h2>
+## Creating the sun
 
 Resize and position the sun by adding the CSS code below.
 
 Click on the file icon and open `style.css`.
 
-<div class="c-project-output">
 ![screenshot](images/step3a.png)
-</div>
-<div class="c-project-code">
---- code ---
----
-filename: style.css
-language: css
-line_numbers: true
-line_number_start: 24
-line_highlights: 24-29
----
+
+```css filename="style.css" line_numbers="true" line_number_start="24" line_highlights="24-29"
 
 #sun {
   position: absolute;
@@ -24,24 +15,14 @@ line_highlights: 24-29
   top: 40px; /* Move the sun down */
 }
 
---- /code ---
-</div>
+```
 
-### Tip
-
-<div class="c-project-callout c-project-callout--tip">
-
-You only need to set the `height` as the width updates automatically to keep the proportions the same.
-
-</div>
+> [!TIP]
+>
+> You only need to set the `height` as the width updates automatically to keep the proportions the same.
 
 ## Now run your code
 
 Run your project and check that the sun is smaller and has moved down the page.
 
-
-<div class="c-project-output">
-
 ![screenshot](images/step3b.png)
-
-</div>

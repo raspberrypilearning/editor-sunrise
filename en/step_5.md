@@ -1,4 +1,4 @@
-<h2 class="c-project-heading--task">Sky</h2>
+## Sky
 
 Animate the sky so it turns dark at night after the sun has set.
 
@@ -8,16 +8,7 @@ Add an animation called `sky` so the background colour changes over time.
 
 Then add a `@keyframes sky` animation so the sky is dark at the start and end, and light blue in the middle.
 
-
-<div class="c-project-code">
---- code ---
----
-filename: style.css
-language: css
-line_numbers: true
-line_number_start: 9
-line_highlights: 15-23
----
+```css filename="style.css" line_numbers="true" line_number_start="9" line_highlights="15-23"
 
 #sky {
   position: absolute;
@@ -35,25 +26,15 @@ line_highlights: 15-23
   100% { background: black; }
 }
 
---- /code ---
-</div>
+```
 
-### Tip
-
-<div class="c-project-callout c-project-callout--tip">
-
-- You can experiment with colours by typing a colour name (like `blue`) and clicking it in the editor to preview
-- Try changing `lightblue` to another colour to make a different daytime sky
-
-</div>
+> [!TIP]
+>
+> - You can experiment with colours by typing a colour name (like `blue`) and clicking it in the editor to preview
+> - Try changing `lightblue` to another colour to make a different daytime sky
 
 ## Now run your code
 
 Run your project and check the sky changes colour over time, getting darker when the sun is “down”.
 
-
-<div class="c-project-output">
-
 ![screenshot](images/step6.gif)
-
-</div>

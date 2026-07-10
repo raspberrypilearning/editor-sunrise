@@ -1,18 +1,8 @@
-<h2 class="c-project-heading--task">Add the sun</h2>
+## Add the sun
 
 Start by adding an image for the sun.
 
-## Step 1
-
-<div class="c-project-code">
---- code ---
----
-filename: index.html
-language: html
-line_numbers: true
-line_number_start: 8
-line_highlights: 11
----
+```html filename="index.html" line_numbers="true" line_number_start="8" line_highlights="11"
   <body>
   
     <div id="sky">
@@ -22,20 +12,10 @@ line_highlights: 11
     <div id="sea">
 
 </body>
---- /code ---
-</div>
-
-## Step 2
-
-Click **Run** to test. You should see a **sun image** appear. It will be huge — you will change the size in the next step.
-
-
-<div class="c-project-output">
-
-![screenshot](images/step2.png)
-
-</div>
+```
 
 ## Now run your code
 
-Click **Run** and check that a huge sun image appears on the page.
+Click **Run** and check that a huge sun image appears on the page. You will change the size in the next step.
+
+![screenshot](images/step2.png)
