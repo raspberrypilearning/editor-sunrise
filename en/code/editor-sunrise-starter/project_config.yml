@@ -2,4 +2,3 @@ name: 'Sunrise - starter'
 identifier: 'editor-sunrise-starter'
 type: 'html'
 build: true
-

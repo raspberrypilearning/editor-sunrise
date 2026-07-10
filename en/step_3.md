@@ -1,4 +1,4 @@
-<h2 class="c-project-heading--task">Animating the sunrise</h2>
+## Animating the sunrise
 
 Create a `sunrise` keyframe animation that makes the sun rise and then set over 10 seconds.
 
@@ -8,16 +8,7 @@ Find your `#sun` CSS rule and make sure it uses the `sunrise` animation.
 
 Then add a `@keyframes sunrise` animation at the end of the file so the sun starts at the bottom, reaches the top halfway through, then returns to the bottom.
 
-
-<div class="c-project-code">
---- code ---
----
-filename: style.css
-language: css
-line_numbers: true
-line_number_start: 24
-line_highlights: 29, 32-36
----
+```css filename="style.css" line_numbers="true" line_number_start="24" line_highlights="29,32-36"
 
 #sun {
   position: absolute;
@@ -33,39 +24,27 @@ line_highlights: 29, 32-36
   100% { left: 80%; top: 120%; }
 }
 
---- /code ---
-</div>
+```
 
-### Tip
-
-<div class="c-project-callout c-project-callout--tip">
-
-Tip
-
-- 0% represents the very start of the animation timeline
-- 100% represents the very end
-
-Each keyframe defines the sun’s position at a specific point in the timeline. The browser smoothly transitions between those positions.
-
-Because the sun element is positioned inside the `.sky` div, its `top` and `left` values are calculated relative to that container — not the entire webpage.
-
-For example:
-
-- `top: 0%` places the sun at the top edge of the sky
-
-- `top: 100%` places the sun at the bottom edge of the sky
-
-It does not refer to the top or bottom of the whole page, only the boundaries of the `.sky` element.
-
-</div>
+> [!TIP]
+>
+> - 0% represents the very start of the animation timeline
+> - 100% represents the very end
+>
+> Each keyframe defines the sun’s position at a specific point in the timeline. The browser smoothly transitions between those positions.
+>
+> Because the sun element is positioned inside the `#sky` div, its `top` and `left` values are calculated relative to that container — not the entire webpage.
+>
+> For example:
+>
+> - `top: 0%` places the sun at the top edge of the sky
+>
+> - `top: 100%` places the sun at the bottom edge of the sky
+>
+> It does not refer to the top or bottom of the whole page, only the boundaries of the `#sky` element.
 
 ## Now run your code
 
 Run your code and check the sun rises up to the top, then sets again, and repeats.
 
-
-<div class="c-project-output">
-
 ![screenshot](images/step4.gif)
-
-</div>

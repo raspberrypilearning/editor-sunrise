@@ -1,4 +1,4 @@
-<h2 class="c-project-heading--task">Diagonal animation</h2>
+## Diagonal animation
 
 Change the `sunrise` keyframes so the sun rises, pauses at the top, then sets again.
 
@@ -11,16 +11,7 @@ Update the keyframes so the sun:
 - stays at the top until `66%`
 - returns to the bottom by `100%`
 
-
-<div class="c-project-code">
---- code ---
----
-filename: style.css
-language: css
-line_numbers: true
-line_number_start: 1
-line_highlights: 2-5
----
+```css filename="style.css" line_numbers="true" line_number_start="1" line_highlights="2-5"
 
 @keyframes sunrise {
   0%   { left: 0;   top: 120%; }
@@ -29,26 +20,16 @@ line_highlights: 2-5
   100% { left: 80%; top: 120%; }
 }
 
---- /code ---
-</div>
+```
 
-### Tip
-
-<div class="c-project-callout c-project-callout--tip">
-
-- `left` moves the sun sideways across the sky (0% is the left edge)
-- `top` moves the sun up and down inside the sky (`top: 100%` is the bottom of the sky)
-- Try changing the `left` values to make the sun rise at a steeper or shallower angle
-
-</div>
+> [!TIP]
+>
+> - `left` moves the sun sideways across the sky (0% is the left edge)
+> - `top` moves the sun up and down inside the sky (`top: 100%` is the bottom of the sky)
+> - Try changing the `left` values to make the sun rise at a steeper or shallower angle
 
 ## Now run your code
 
 Run your project and check the sun rises, pauses near the top, then sets again.
 
-
-<div class="c-project-output">
-
 ![screenshot](images/step5.gif)
-
-</div>
